@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pills_bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AnonimMode"
+    tools:showIn="@layout/app_bar_anonim_mode">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/foreground2"
+                android:layout_marginTop="20dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorPrimary">
+                <ImageView
+                    android:layout_margin="2dp"
+                    android:minHeight="100dp"
+                    android:src="@drawable/foreground2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@color/colorWhite"
+                    android:contentDescription="@string/todo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/foreground1"
+                android:layout_marginVertical="5dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@color/colorPrimary"
+                android:layout_below="@+id/foreground2">
+                <ImageView
+                    android:layout_margin="2dp"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/foreground1"
+                    android:background="@color/colorWhite"
+                    android:contentDescription="@string/todo" />
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/anonim_progress"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foreground1"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/ListOfElements"
+                android:layout_width="match_parent"
+                android:layout_height="336dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_below="@+id/foreground1"
+                tools:ignore="NestedScrolling" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

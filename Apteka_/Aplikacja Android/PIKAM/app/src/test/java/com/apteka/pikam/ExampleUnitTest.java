@@ -1,4 +1,4 @@
-package com.projekt_zespolowy.pikam;
+package com.apteka.pikam;
 
 import org.junit.Test;
 
