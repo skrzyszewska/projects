@@ -1,0 +1,76 @@
+.hide-entry-title th {
+	font-size: 13px;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+.hide-entry-title-seos {
+	width: 100%;
+	display: block;
+	clear: both;
+
+}
+			
+.hide-entry-title-seos  .s-red {
+	background-color: #B70000 !important;
+	border: 1px solid #6B0000 !important;
+	display: block;
+	clear: both;
+	font-size: 40px;
+	font-weight: 900;
+	width: 100%;
+	color: #fff;
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px #333;
+}
+
+.hide-entry-title-seos h2  {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.s-red:hover {
+	background-color: red !important;
+}
+
+.hide-entry-title-seos .btn {
+	text-align: center;
+	line-height: 80px;
+}
+
+.hide-entry-title-seos a {
+	text-decoration: none;
+}
+
+.hide-entry-title-seos h1 {
+	font-size: 44px;
+	padding: 30px 0 30px 0;
+	text-align: center;
+}
+
+.hide-entry-title-seos .ss-logo {
+	position: relative;
+	top: 12px;
+	width: 60px;
+	height: 60px;
+}
+
+.hide-entry-title-keep {
+	float: none;
+	display: inline-block;
+	clear: both;
+}
+
+.question-radio {
+	padding: 0;
+	margin: 0;
+	line-height: 1em;
+}
