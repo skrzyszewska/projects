@@ -1,0 +1,99 @@
+﻿<Page x:Class="Gra_Państwa_Miasta.Pages.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="550" 
+      d:DesignWidth="1030"
+      Title="HomePage">
+
+    <Grid Background="LightGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="Aqua">
+            <TextBlock Text="Proszę zapoznaj się z zasadami i rozpocznij nową grę lub dołącz do już istniejącej rozgrywnki." HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"   TextWrapping="Wrap"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="BlueViolet">
+                <ScrollViewer>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Text="Opis Gry" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"  />
+                        <TextBlock x:Name="Description" Grid.Row="1" Margin="10,0,10,0" TextWrapping="Wrap"/>
+                        <TextBlock Grid.Row="2" Text="Zasady Gry" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"  />
+                        <TextBlock x:Name="Rules" Grid.Row="3" Margin="10,0,10,0" TextWrapping="Wrap"/>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="Lista dostępnych grzaczy:" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"   Margin="5,5,5,0"/>
+                    <DataGrid x:Name="AvailablePlayers" Grid.Row="1" Margin="10" Background="White" CanUserResizeColumns="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nr." Binding="{Binding Number}"/>
+                <DataGridTextColumn Header="Nick" Binding="{Binding Login}" Width="100"/>
+                <DataGridTextColumn Header="Nazwa Gry" Binding="{Binding NameOfGame}" Width="100"/>
+                <DataGridTextColumn Header="Typ" Binding="{Binding Type}" Width="70"/>
+                <DataGridTextColumn Header="Adress" Binding="{Binding Adress}" Width="95"/>
+                <DataGridTextColumn Header="Port" Binding="{Binding Port}" Width="50"/>
+            </DataGrid.Columns>
+                    </DataGrid>
+                    <Grid x:Name="EmptyList" Grid.Row="1" Background="White" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" Visibility="Collapsed">
+            <TextBlock Text="Brak dostępnych graczy!" FontSize="20"   HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0" Text="Login" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"   Margin="5,0,5,0"/>
+            <TextBox x:Name="Login" Grid.Column="1" Margin="20,5,20,5" Text="Podaj swój login" FontSize="20"   VerticalAlignment="Center" PreviewMouseDown="Login_MouseDown" LostFocus="Login_LostFocus"/>
+                    </Grid>
+                    <Grid x:Name="FirstPlayerOn" Grid.Row="1">
+            <Button x:Name="JoinOrCreate" Click="JoinOrCreate_Click" Margin="15">
+                <TextBlock Text="Utwórz grę" FontSize="20"   FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+                    </Grid>
+                    <Grid x:Name="AnyServerIsAvailable" Grid.Row="1" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="0" x:Name="Join" Click="Join_Click" Margin="15">
+                <TextBlock Text="Dołącz do gry" FontSize="20"   FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+            <Button Grid.Row="1" x:Name="Create" Click="Create_Click" Margin="15">
+                <TextBlock Text="Utwórz nową grę" FontSize="20"   FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Button>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
