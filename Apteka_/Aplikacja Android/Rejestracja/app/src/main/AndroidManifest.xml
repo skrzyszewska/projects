@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apteka.rejestracja">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo96x96"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo96x96"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".AnonimMode"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LekiAdoZ" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".Koszyk" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".LekiCenaSort" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".Dodaj_Leki" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".Rejestracja_Dla_Aptekarza" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".RegisterActivity" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".Rejestracja_Dla_Klienta" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".KlientMode" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".AptekarzMode" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+        <activity android:name=".SearchResults" android:screenOrientation="portrait"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
