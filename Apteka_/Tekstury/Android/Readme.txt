@@ -1,0 +1,1 @@
+Tekstury dla androida
