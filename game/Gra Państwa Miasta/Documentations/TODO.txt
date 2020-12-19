@@ -1,0 +1,9 @@
+﻿TODO:
+? Protokuł komunikacji klient/server
+? synchroniczna implementacja klienta (synchroniczna bo czeka na [a: innych graczy lub zakończenie rundy], [b: wysłanie swoich odpowiedzi],[c: odpowiedz serwera]
+? (opcionalnie) historia gracza z kilku gier zapisana w pliku i podgląd owych wyników i statystykach gracza (jakiś xml albo lokal database ze spisem zarejestrowanych uzytkowników i ich historią rozgrywnki, punktami, czasem gry, datą...)
+  * Zagadnienie klient/serwer i programowanie asynchroniczne i synchroniczne w C#.
+  * Testowanie aplikacji (minimum 2 komputery w sieci lokalnej z systemem windows 10)
+  * Odczyt słownika i metoda sprawdzającą:
+	## public bool CheckIfAnswerIsAvailableInDictionary(string word); ##,
+	która zwróci czy podał dobrą nazwe.

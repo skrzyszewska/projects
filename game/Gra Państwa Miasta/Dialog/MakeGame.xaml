@@ -1,0 +1,157 @@
+﻿<Window x:Class="Gra_Państwa_Miasta.Dialog.MakeGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" Title="Utwórz Grę" Height="365" Width="410" ResizeMode="NoResize">
+
+    <Grid Background="LightGray">
+        <ScrollViewer>
+            <Grid x:Name="MainGrid" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+            <RowDefinition Height="28"/>
+            <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="*Podaj nazwe swojej gry:" VerticalAlignment="Center" FontSize="22" FontWeight="Bold"  />
+                    <TextBox x:Name="NameOfNewGame" Grid.Row="1" Text="Nowa nazwa gry" VerticalAlignment="Center" FontSize="24"   PreviewMouseDown="NameOfNewGame_MouseDown" LostFocus="NameOfNewGame_LostFocus" Margin="5,0,5,0"/>
+                </Grid>
+                <Grid Grid.Row="1" Background="Aqua" Margin="10,0,10,0" />
+                <Grid Grid.Row="2" Margin="10,0,10,0">
+                    <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Adress ip:" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"   Foreground="Gray"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="*Port:" VerticalAlignment="Center" FontSize="24" FontWeight="Bold"  />
+                    <TextBlock x:Name="AdressOfNewGame" Grid.Row="0" Grid.Column="1" Text="adtess ip" VerticalAlignment="Center" FontSize="24"   PreviewMouseDown="NameOfNewGame_MouseDown" LostFocus="NameOfNewGame_LostFocus" Margin="5,0,5,0" Foreground="Gray"/>
+                    <TextBox x:Name="PortOfNewGame" Grid.Row="1" Grid.Column="1" Text="port [1025-65535]" VerticalAlignment="Center" FontSize="24" PreviewMouseDown="PortOfNewGame_OnPreviewMouseDown" LostFocus="PortOfNewGame_OnLostFocus" Margin="5,0,5,0"/>
+                </Grid>
+                <Grid Grid.Row="3" Background="Aqua" Margin="10,0,10,0" />
+                <Grid Grid.Row="4">
+                    <Grid.RowDefinitions>
+            <RowDefinition Height="29"/>
+            <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <CheckBox x:Name="KolumnyCheck" Click="KolumnyCheck_OnClick">
+            <DockPanel>
+                <TextBlock Text="Wybież kolumny" FontSize="24" FontWeight="Bold"  />
+            </DockPanel>
+                    </CheckBox>
+                    <Grid x:Name="Kolumny" Grid.Row="1" Margin="20,0,0,0" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <CheckBox x:Name="PanstwoCheck" Grid.Row="0" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Państwo" FontSize="18" FontWeight="Bold"  />
+                </DockPanel>
+            </CheckBox>
+            <CheckBox x:Name="MistoCheck" Grid.Row="1" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Miasto" FontSize="18" FontWeight="Bold"  />
+                </DockPanel>
+            </CheckBox>
+            <CheckBox x:Name="ZwierzeCheck" Grid.Row="2" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Zwierzę" FontSize="18" FontWeight="Bold"  />
+                </DockPanel>
+            </CheckBox>
+            <CheckBox x:Name="RoslinaCheck" Grid.Row="3" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Roślina" FontSize="18" FontWeight="Bold"  />
+                </DockPanel>
+            </CheckBox>
+            <CheckBox x:Name="RzeczCheck" Grid.Row="4" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Rzecz" FontSize="18" FontWeight="Bold"  />
+                </DockPanel>
+            </CheckBox>
+            <CheckBox x:Name="ImieCheck" Grid.Row="5" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Imię" FontSize="18" FontWeight="Bold"  />
+                </DockPanel>
+            </CheckBox>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5" Background="Aqua" Margin="10,0,10,0" />
+                <Grid Grid.Row="6">
+                    <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Tryb gry:" FontSize="24" FontWeight="Bold"   Margin="5,0,5,0"/>
+                    <CheckBox x:Name="Czas" Grid.Row="1" Click="CzasCheck_OnClick" Margin="15,0,15,0" IsChecked="False">
+            <DockPanel>
+                <TextBlock Text="Na Czas: " FontSize="20" FontWeight="Bold"  />
+            </DockPanel>
+                    </CheckBox>
+                    <Grid x:Name="CzasGrid" Grid.Row="2" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <CheckBox x:Name="CzasRundyCheck" Margin="30,0,0,0">
+                <DockPanel>
+              <TextBlock Text="Czas rundy: " FontSize="18" FontWeight="Bold"  />
+              <TextBox x:Name="CzasRundy" FontSize="16" FontWeight="Bold" Text="90" Width="100" Visibility="Visible"/>
+              <TextBlock x:Name="CzasRundyText" Text="sekund" FontSize="11" FontWeight="Bold"   Margin="5,0,5,0" Visibility="Collapsed"/>
+                </DockPanel>
+            </CheckBox>
+            <CheckBox x:Name="CzasGryCheck" Margin="30,0,0,0" Grid.Row="1" IsChecked="True">
+                <DockPanel>
+              <TextBlock Text="Czas gry: " FontSize="18" FontWeight="Bold"/>
+              <TextBox x:Name="CzasGry" FontSize="16" FontWeight="Bold" Text="9" Margin="22,0,0,0" Width="100"/>
+              <TextBlock Text="minut" FontSize="17" FontWeight="Bold" Margin="5,0,5,0"/>
+                </DockPanel>
+            </CheckBox>
+                    </Grid>
+                    <CheckBox x:Name="Rundy" Grid.Row="3" Click="KolumnyCheck_OnClick" Margin="15,2,15,0" IsChecked="True">
+            <DockPanel>
+                <TextBlock Text="Ilosc Rund: " FontSize="18" FontWeight="Bold"  />
+                <TextBox Text="6" FontSize="16" FontWeight="Bold"   Margin="14,0,0,0" Width="100"/>
+            </DockPanel>
+                    </CheckBox>
+                    <CheckBox x:Name="Punkty" Grid.Row="4" Click="KolumnyCheck_OnClick" Margin="15,0,15,0">
+            <DockPanel>
+                <TextBlock Text="Do uzyskania ilość punktów: " FontSize="18" FontWeight="Bold"   Margin="0,0,5,0"/>
+                <TextBox x:Name="IloscPunktowDoWygranej" Width="100" Visibility="Collapsed"/>
+                <TextBlock x:Name="IloscPunktowDoWygranejText" Text="pkt." FontSize="11" FontWeight="Bold"   Margin="5,0,5,0" Visibility="Collapsed"/>
+            </DockPanel>
+                    </CheckBox>
+                    <CheckBox x:Name="Dogrywka" Grid.Row="5" Margin="10,0,10,0" Click="KolumnyCheck_OnClick">
+            <DockPanel>
+                <TextBlock Text="Czy chcesz dogrywke podczas remisu?" FontSize="18" FontWeight="Bold"  />
+            </DockPanel>
+                    </CheckBox>
+                </Grid>
+                <Button x:Name="Make" Grid.Row="7" Click="Create_Click">
+                    <TextBlock Text="Utwórz Nową Grę" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" FontWeight="Bold"  />
+                </Button>
+            </Grid>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+Gra jest przeznaczona dla graczy w liczbie od 2 do 6 .
+Przed rozpoczeciem gry podaj nick
+Jezeli jestes graczem po prostu dolaczasz do istniejacej gry, w ktorej jest miejsce
+Jezeli jestes organizatorem gry :
+	Stworzenie gry:
+		podajesz nazwe gry
+		decydujesz kiedy rozpoczyna sie gra
+		decydujesz ile osob moze dolaczyc do gry
+
+	Kolumny tabelki są zatytułowane nazwami poszczególnych kategorii do wybrania,minimum dwie do zaznaczenia,domyslnie sa wszystkie zaznaczone:
+		państwo
+		miasto
+		zwierzę
+		roślina
+		rzecz
+		imię
+
+	Wybierasz tryb gry:
+		na czas
+		na ilosc rund(do wpisania)
+		na iosc  punktow
+
+		*Czy chcesz dogrywke podczas remisu?
+
+	Modyfikacja punktow(opcjonalnie):
+		-  pkt - Jeżeli gracz jako jedyny miał wyraz.
+		-  pkt - Jeżeli wyraz się nie powtorzył.
+		-  pkt - Jeżeli wyraz sie powtorzył.
+		-  pkt - Jeżeli wyraz był niepoprawny lub jego brak.	

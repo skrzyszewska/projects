@@ -1,0 +1,12 @@
+1. Gra rozpoczyna się od wylosowania przez jednego z graczy litery alfabetu. Z losowania wyłączone są takie literki jak : Ą, Ę, Ń, Ó, Ź ,Ż Q, V, X Y.
+
+2. Od momentu wylosowania litery wszyscy gracze zaczynają wpisywać do swoich tabelek słowa zaczynające się na wylosowaną literę – do każdej kolumny tabelki po jednym słowie pasującym do danej kategorii. Wpisywanie słów kończy się, gdy któryś z graczy wpisze odpowiednie słowa do wszystkich kolumn tabelki i naciśnie przycisk STOP, który rozpocznie odliczanie ostatnich chwil na dopisywanie odpowiedzi.
+
+3. Zliczanie punktów.
+
+    - 15 pkt - Jeżeli gracz jako jedyny miał wyraz.
+    - 10 pkt - Jeżeli wyraz się nie powtorzył.
+    -  5 pkt - Jeżeli wyraz sie powtorzył.
+    -  0 pkt - Jeżeli wyraz był niepoprawny lub jego brak.
+
+4. Gra trwa tyle rund ile wcześniej zostało ustalone. Wygrywa ten, kto zbierze w trakcie gry najwięcej punktów. 
