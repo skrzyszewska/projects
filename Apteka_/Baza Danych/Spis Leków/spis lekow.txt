@@ -1,0 +1,241 @@
+Spis Leków:
+[ Nazwa Leku ]
+[ Nazwa zdjecia ]
+[ Czy na recepte? TRUE:FALSE ]
+[ Sklad ]
+[ Opis (dzialanie, sposob uzycia) ]
+
+[ Na przeziebienia i grype ]
+Scorbolamid
+scorbolamid.png
+FALSE
+salicylamid, kwas askorbowy i rutozyd
+lek do stosowania w okresie przeziębienia i grypy.
+
+GripBloker Express
+gripbloderexpress.png
+FALSE
+paracetamol, pseudoefedryna, dekstrometorfan.
+wieloskładnikowy lek przeznaczony do krótkotrwałego leczenia objawów przeziębienia i grypy.
+
+Gripex Noc
+gripexnoc.png
+FALSE
+paracetamol, pseudoefedryna, dekstrometorfan i chlorfeniramina.
+preparat łagodzący objawy przeziębienia i grypy, dostępny w formie tabletek, kapsułek i proszku do sporządzenia roztworu doustnego.
+
+Cerutin
+cerutin.png
+FALSE
+kwas askorbowy, rutozyd
+preparat wspomagający odporność w stanach niedoboru witaminy C i rutozydu. Zapobiega przeziębieniom i łagodzi objawy grypy. Uszczelnia naczynia włosowate. Cerutin jest dostępny również w formie syropu i żelków dla dzieci.
+
+Rutinacea
+rutinacea.png
+FALSE
+kwas kwas L-askorbinowy
+preparat łagodzący objawy przeziębienia i grypy, dostępny w formie tabletek, kapsułek i proszku do sporządzenia roztworu doustnego.
+
+Juvit C
+juvitc.png
+FALSE
+kwas askorbowy, glicerol, disodu edetynian, woda oczyszczona.
+lek zawierający witaminę C w kroplach.
+
+[ Na Ból Gardła ]
+Uniben
+uniben.png
+FALSE
+benzydamin chlorowodorek
+aerozol do stosowania w jamie ustnej. Zawiera substancję czynną z grupy niesteroidowych leków przeciwzapalnych (NLPZ), która działa miejscowo przeciwzapalnie, przeciwbólowo, znieczulająco oraz odkażająco.
+
+Vocaler
+vocaler.png
+FALSE
+wyciąg suchy z porostu islandzkiego, ekstrakt gęsty z korzenia prawoślazu
+pastylki do ssania na chrypkę i suchość w gardle.
+
+Prenalen
+prenalen.png
+FALSE
+soki z malin i czarnych porzeczek, witaminę C i cynk
+preparat stanowiący źródło naturalnych, biologicznie czynnych substancji z czosnku, który wykazuje działanie antybakteryjne i antyoksydacyjne oraz zawiera koncentraty soków z malin i czarnych porzeczek, a także witaminę C i cynk pomagające w prawidłowym funkcjonowaniu układu odpornościowego. Serię "Prenalen", opartą na naturalnych składnikach, stworzono z myślą o kobieta w ciąży i mamach karmiących; lekarze bardzo chętnie zalecają stosowanie preparatów "Prenalen" w trakcie ciąży i laktacji, zapominając, że zdecydowaną większość farmaceutyków można bezpiecznie przyjmować w stanie błogosławionym i podczas karmienia piersią. Niestety wielu lekarzy nigdy nie słyszało o Laktacyjnym Leksykonie Leków.
+
+Halset
+halset.png
+FALSE
+cetylopirydyniowy chlorek jednowodny, sorbitol, olejek miętowy, mentol, magnezu stearynian.
+tabletki zapobiegawcze i lecznicze w lekkich i średniociężkich stanach zapalnych jamy ustnej i gardła.
+
+HascoSept
+hascosept.png
+FALSE
+benzydaminy chloroowodorek, błękit patentowy, żółcień chinolinowa, aromat miętowy, glicerol, etanol 96%, sacharyna, sodu wodorowęglan, metylu parahydroksybenzoesan, polisorbat 20, woda oczyszczona.
+płyn do stosowania w jamie ustnej, stosowany miejscowo działa znieczulająco i odkażająco.
+
+[ PRZECIWBOLOWE ]
+Ibum Forte
+ibumforte.png
+FALSE
+ibuprofen, makrogol, potasu wodorotlenek, żelatyna, sorbitol ciekły częściowo odwodniony, woda oczyszczona, żółcień chinolinowa E, błękit patentowy E 131.
+lek przeciwbólowy i przeciwgorączkowy. Dostępny także m.in. w formie syropu i czopków dla niemowląt i dzieci.
+
+Ibuprom
+ibuprom.png
+FALSE
+ibuprofen
+lek działający przeciwbólowo.
+
+Apap Noc
+apapnoc.png
+FALSE
+Paracetamol, Difenhydraminy chlorowodorek
+lek przeciwbólowy i przeciwgorączkowy.
+
+Polopiryna
+polopiryna.png
+FALSE
+kwas acetylosalicylowy
+preparat złożony z kwasu acetylosalicylowego i kwasu askorbowego (witaminy C). Kwas acetylosalicylowy ma działanie przeciwbólowe, przeciwgorączkowe i przeciwzapalne.
+
+Metafen
+metafen.png
+FALSE
+ibuprofenu, chlorowodorek pseudoefedryny
+lek przeciwbólowy, przeciwgorączkowy i przeciwzapalny.
+
+Etopiryna
+etopiryna.png
+FALSE
+kwas acetylosalicylowy, paracetamol i kofeina
+lek, bez którego pani Goździkowa nie rusza się z domu, a stosuje go w leczeniu bólów głowy oraz bólów o umiarkowanym nasileniu, zwłaszcza pochodzenia zapalnego.
+
+IBufen dla dzieci
+ibufendladzieci.png
+FALSE
+zawiesina ibuprofenu
+lek o działaniu przeciwgorączkowym, przeciwbólowym i przeciwzapalnym dla niemowląt i dzieci. Występuje w postaci zawiesiny doustnej, czopków i kapsułek miękkich.
+
+[ Bole brzucha ]
+MultiLac
+multilac.png
+FALSE
+Lactobacillus helveticus, Lactococcus lactis, Bifidobacterium longum, Bifidobacterium breve, Lactobacillus rhamnosus, Streptococcus thermophilus, Bifidobacterium bifidum, Lactobacillus casei, Lactobacillus plantarum, składnik odżywczy: oligofruktoza, skrobia kukurydziana, skrobia kukurydziana pre-żelowana, nośnik: hydroksypropylometyloceluloza, substancja przeciwzbrylająca: sole magnezowe kwasów tłuszczowych, substancja glazurująca: szelak, barwnik: dwutlenek tytanu, stabilizator: kwas L-askorbinowy, nośnik: kwas alginowy, nośnik: cytrynian trietylowy, substancja zagęszczająca: mączka chleba świętojańskiego, oliwa z oliwek.
+nowoczesny synbiotyk zawierający aż dziewięć specjalnie wyselekcjonowanych szczepów żywych kultur bakterii oraz składnik odżywczy - oligofruktozę. "Multilac" występuje również w wersji dla niemowląt i dzieci.
+
+Ranigast
+ranigast.png
+FALSE
+ranitydyny w postaci chlorowodorku
+środek na zgagę i niestrawność, zawierający ranitydynę, która hamuje wydzielanie w żołądku kwasu solnego oraz pepsyny.
+
+Stoperan
+stoperan.png
+FALSE
+chlorek loperamidu
+lek przeciwbiegunkowy. W serii "Stoperan" dostępne są także elektrolity.
+
+acidolac
+acidolac.png
+FALSE
+liofilizowane kultury bakterii Lactobacillus rhamnosus GG, prebiotyk - fruktooligosacharydy.
+dietetyczny środek spożywczy specjalnego przeznaczenia medycznego 
+
+Ulgix Trawienie
+ulgixt.png
+FALSE
+olej sojowy, składniki otoczki kapsułki (żelatyna, glicerol, dwutlenek tytanu, tlenek żelaza żółty, tlenek żelaza czarny, błękit patentowy), wyciąg suchy z czarnej rzepy, olej palmowy, wyciąg suchy z karczocha, wyciąg suchy z kurkumy, wyciąg suchy z mięty pieprzowej, olej kokosowy całkowicie uwodorniony, wosk żółty, lecytyna sojowa.
+preparat wpływający korzystnie na spowolnione procesy trawienne.
+
+[ Suplementy ]
+Plusssz
+plusssz.png
+FALSE
+niacyna, witamina c, e, b6, b1, b2, b12, kwas pontotenowy, kaws foliowy, bioty, magnez, kofina, lecytyna
+seria różnorodnych suplementów w formie tabletek musujących dla dorosłych i młodzieży.
+
+Belissa
+belissa.png
+FALSE
+Ziele skrzypu polnego, L-cysteina, Witamina A, C, E, B6, B12, B1, Niacyna, Biotyna, Kwas pantotenowy, Kwas foliowy, Cynk, Jod, Żelazo, B-karoten
+suplement diety, który wzmacnia i poprawia kondycję włosów, skóry i paznokci.
+
+Sylimaryna
+sylimaryna.png
+FALSE
+ostropest plamisty
+suplement diety przeznaczony dla osób odczuwających dyskomfort trawienny. Zawiera ostropest plamisty, wpływając na prawidłowe funkcjonowanie wątroby i utrzymanie oczyszczających funkcji fizjologicznych.
+
+Vita-Miner
+vitaminer.png
+FALSE
+Ziele skrzypu polnego, L-cysteina, Witamina A, C, E, B6, B12, B1, Niacyna, Biotyna, Kwas pantotenowy, Kwas foliowy, Cynk, Jod, Żelazo, B-karoten
+seria suplementów diety uzupełniająca codzienną dietę w niezbędne witaminy i minerały. 
+
+Neomag
+neomag.png
+FALSE
+magnez, witamina b6
+seria suplementów diety z węglanem magnezu, wspomagająca prawidłowe funkcjonowanie mięśni i całego organizmu w stanach zwiększonego zapotrzebowania na magnez.
+
+[ Leki na alergie ]
+Nervomix
+nervomix.png
+FALSE
+Valerianae radix, Lupuli strobilus, Melissae folium, Hyperici herba,
+mieszanka ziołowa stosowana w przejściowych stanach nadpobudliwości nerwowej i zaburzeniach zasypiania.
+
+Hialeye
+hialeye.png
+FALSE
+hialuronian, chlorek sodu, disodu fosforan, sodu dihydroortofosforan, edetynian sodu, cetrymid, woda sterylna.
+krople nawilżające do oczu.
+
+Acatar
+acatar
+FALSE
+pseudoefedryny chlorowodorek, triprolidyny chlorowodorek
+preparat udrażniający nos i zmniejszający katar. Nawilża i oczyszcza błonę śluzową nosa, szczególnie gdy powietrze jest suche, a także gdy występuje w nim zwiększona ilość pyłków lub kurzu. Zapobiega także wrażeniu "suchego nosa"
+
+Urosept
+urosept.png
+FALSE
+wyciąg gęsty złożony z liści brzozy, korzenia pietruszki, naowocni fasoli, naowocnię fasoli sproszkowaną, wyciąg suchy z liści borówki brusznicy, wyciąg suchy z ziela rumianku, potasu cytrynian, sodu cytrynian
+lek o łagodnym działaniu moczopędnym.
+
+Amertil
+amertil.png
+TRUE
+dichlorowodorku cetyryzyny, laktozę jednowodną, celulozę mikrokrystaliczną, skrobię modyfikowaną, magnezu stearynian, hypromelozę, tytanu dwutlenek, makrogol.
+lek wydawany na receptę, stosowany w objawowym leczeniu przewlekłego i sezonowego alergicznego zapalenia błony śluzowej nosa, alergicznego zapalenia spojówek i pokrzywki u dorosłych i dzieci od 6 lat.
+
+[ inne ]
+Manti
+manti.png
+FALSE
+Wodorotlenek aluminium, Wodorotlenek magnezu, Symetykon
+suplement diety uwalniający zobojętniające związki wapnia i magnezu, które trafiają do żołądka. 
+
+Herbapect
+herbapect.png
+FALSE
+wyciągu z ziela tymianku, etanol, woda amoniakalna, glicerol, nalewka z pierwiosnka lekarkiego, sulfogwajakolu 
+środek zmniejszający częstotliwość kaszlu i ułatwiający odkrztuszanie.
+
+Xenna
+xenna.png
+FALSE
+suchy wyciąg z owoców senesu
+lek przeczyszczający pochodzenia roślinnego.
+
+Oeparol
+oeparol.png
+FALSE
+tłoczony na zimno olej z nasion wiesiołka, żelatynę, substancje utrzymujące wilgoć - sorbitol, glicerol.
+suplement diety zawierający kwasy omega-3 i omega -6 (NNKT) dla wzmocnienia organizmu.
+
+Pulneo
+pulneo.png
+FALSE
+fenspirydu chlorowodorku
+lek o właściwościach przeciwzapalnych i rozkurczających oskrzela.
