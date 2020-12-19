@@ -1,0 +1,24 @@
+# - Lista Leków (Activity)
+# - Wyszukiwanie (Anonim)
+# - Menu boczne (wygląd)
+# - Logowanie (activity)
+# - zapamietywanie uzytkownika (pewnie jakiś plik z opcjami i historią)
+# - Rejestracja (activity)
+# - Menu boczne (anonim, dzialanie)
+# - Przerowbic klase Task aby query podawac w parametrze :)
+# - Proponowane leki (skorzystac z tabeli HistoriaZamowien i wyciagnac najczesciej kupowany lek po LekID)
+# - Klient (Activity)
+# - Klient (Panel boczny)
+# - Aptekarz (Activity)
+# - Aptekarz (Panel boczny)
+# - Koszyk (Activity)
+ - Dodawanie recept (Koszyk) ## brak recept w aplikacji
+# - Historia zamówien (Klient)
+# - Realizajia zamówien (Aptekarz)
+
+
+# - bialy pasek w listach i w pojedynczym leku
+# - poprawa nazwy w anonimmode metoda setImageTab,setImageRES (to w pojedynczym leku)
+# - ic_unknown poprawic zdjecie (50x50) dla funckji setImageTab, zamienic setImageres imageIndex = R.drawable.logo96x96; zamienic to na zdj unknown2 w pelny mrozmiarze
+ - poprawa wygladu pojedynczego leku
+# - przyciski
