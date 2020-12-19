@@ -1,0 +1,174 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/klient_toolbar"
+        android:id="@+id/klient_toolbar">
+    </include>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pills_bg">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Login"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Haslo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Haslo"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPassword"/>
+
+
+
+        <EditText
+            android:id="@+id/Powtorz_haslo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Powtorz haslo"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Podpis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColorHint="@color/colorBlack"
+            android:hint="Podpis"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Imie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Imie"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Nazwisko"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nazwisko"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/Telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Telefon"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName"
+            android:singleLine="false" />
+
+        <EditText
+            android:id="@+id/Miejscowosc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Miejscowosc"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Kod_Pocztowy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kod pocztowy"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Adres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adres"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/DataUrodzenia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="DataUrodzenia"
+            android:textColorHint="@color/colorBlack"
+            android:textStyle="italic"
+            android:textColor="@color/colorBlack"
+            android:inputType="textPersonName" />
+
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ZAREJESTRUJ"
+            android:background="@drawable/color_button_one"
+            android:textStyle="italic"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

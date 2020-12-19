@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/HomePage"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="@string/homePage"/>
+        <item
+            android:id="@+id/Medicines"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="@string/medicines" />
+        <item
+            android:id="@+id/Koszyk"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/skoszyk" />
+        <item
+            android:id="@+id/SingOut"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/SingOut" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+        </menu>
+    </item>
+
+</menu>

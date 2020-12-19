@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pills_bg">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_weight"
+        android:layout_above="@+id/Sposob_rejestracji"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/Sposob_rejestracji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="REJESTRACJA"
+        android:textColor="@color/colorBlack"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/Button_klient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Sposob_rejestracji"
+        android:layout_alignTop="@+id/Sposob_rejestracji"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/color_button_one"
+        android:text="KLIENT"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite" />
+
+
+    <Button
+        android:id="@+id/Button_aptekarz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Sposob_rejestracji"
+        android:layout_alignTop="@+id/Sposob_rejestracji"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/color_button_one"
+        android:text="APTEKARZ"
+        android:textStyle="italic"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>
+

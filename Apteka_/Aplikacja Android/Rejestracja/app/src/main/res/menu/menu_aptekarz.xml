@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/konto"
+        android:title="@string/konto"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/realizacja_recepty"
+        android:title="@string/realizacja_recepty"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/dodaj_lek"
+        android:title="@string/dodaj_lek"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/edytuj_lek"
+        android:title="@string/edytuj_lek"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/usun_lek"
+        android:title="@string/usun_lek"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ustawienia"
+        android:title="@string/ustawienia"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/faq"
+        android:title="@string/faq"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/wyloguj"
+        android:title="@string/wyloguj"
+        app:showAsAction="never"/>
+
+
+
+</menu>

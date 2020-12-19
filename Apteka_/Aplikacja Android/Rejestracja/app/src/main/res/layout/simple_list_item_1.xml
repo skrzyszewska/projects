@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/Nazwa_Leku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nazwa Leku: "
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorBlack"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/Cena_Leku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cena: "
+        android:layout_below="@id/Nazwa_Leku"
+        android:textColor="@color/colorBlack"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/NazwaLeku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/Nazwa_Leku"
+        android:textColor="@color/colorBlack"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/Cena"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@id/Cena_Leku"
+        android:layout_below="@+id/NazwaLeku"
+        android:paddingTop="5dp" />
+
+</RelativeLayout>

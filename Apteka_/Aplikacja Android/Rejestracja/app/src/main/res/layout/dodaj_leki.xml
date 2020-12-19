@@ -1,0 +1,134 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        layout="@layout/klient_toolbar"
+        android:id="@+id/klient_toolbar">
+    </include>
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pills_bg">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Nazwa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nazwa"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName" />
+
+
+
+            <EditText
+                android:id="@+id/Grupa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Grupa"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Zdjecie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Kliknij, aby dodać zdjęcie"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/Skład"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Skład"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Opis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Opis"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/Ilosc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Ilosc"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/Cena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Cena"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic"
+                android:textColor="@color/colorBlack"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/Na_receptę"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Na Receptę(TAK/NIE)"
+                android:inputType="textPersonName"
+                android:textColor="@color/colorBlack"
+                android:textColorHint="@color/colorBlack"
+                android:textStyle="italic" />
+
+
+
+
+
+
+            <Button
+                android:id="@+id/Dodaj_Lek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DODAJ LEK"
+                android:background="@drawable/color_button_one"
+                android:textColor="@color/colorWhite"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

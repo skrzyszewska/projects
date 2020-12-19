@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_rejestracja__dla__klienta">Rejestracja_Dla_Klienta</string>
+    <string name="title_activity_aptekarz_mode">AptekarzMode</string>
+    <string name="konto">KONTO</string>
+    <string name="koszyk">KOSZYK</string>
+    <string name="dodaj_recepte">DODAJ RECEPTĘ</string>
+    <string name="ustawienia">USTAWIENIA</string>
+    <string name="faq">FAQ</string>
+    <string name="wyloguj">WYLOGUJ</string>
+    <string name="realizacja_recepty">REALIZACJA RECEPTY</string>
+    <string name="dodaj_lek">DODAJ LEK</string>
+    <string name="edytuj_lek">EDYTUJ LEK</string>
+    <string name="usun_lek">USUN LEK</string>
+    <string name="zarejestruj">ZAREJESTRUJ</string>
+    <string name="zaloguj">ZALOGUJ</string>
+    <string name="o_aplikacji">O APLIKACJI</string>
+    <string name="app_name">P.I.K.A.M.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">APTEKA P.I.K.A.M.</string>
+    <string name="nav_header_subtitle">Szybki i wygodny sposób na zdobycie niezbędnych leków.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="medicines">Leki</string>
+    <string name="homePage">Strona Główna</string>
+    <string name="communicate">Komunikacja</string>
+    <string name="share">Udostepnij</string>
+    <string name="send">Wyślij</string>
+    <string name="search">Szukaj</string>
+    <string name="empty" />
+    <string name="podajDaneLogowania">Podaj dane logowania:</string>
+    <string name="enterLogin">Podaj login</string>
+    <string name="enterPassword">Podaj hasło</string>
+    <string name="Login">Zaloguj</string>
+    <string name="NieMaszJeszczeKonta">Nie masz jeszcze konta?</string>
+    <string name="Zarejestruj">Zarejestruj</string>
+    <string name="MySearch">My Search</string>
+    <string name="rejestracja">REJESTRACJA</string>
+    <string name="anonimmode">AnonimMode</string>
+    <string name="haslo">Hasło</string>
+    <string name="login">Login</string>
+    <string name="skoszyk">Koszyk</string>
+    <string name="SingOut">Wyloguj</string>
+</resources>

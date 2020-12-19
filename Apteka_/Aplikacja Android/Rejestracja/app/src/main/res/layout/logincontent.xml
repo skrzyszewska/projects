@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pills_bg">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_weight"
+        android:layout_above="@+id/LoginL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/LoginL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:textColorHint="@color/colorBlack"
+        android:textColor="@color/colorBlack"
+        android:background="#8FFF"
+        android:hint="@string/login"
+        android:textStyle="italic"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/PasswordP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:textColorHint="@color/colorBlack"
+        android:textColor="@color/colorBlack"
+        android:background="#8FFF"
+        android:hint="@string/haslo"
+        android:textStyle="italic"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Rejestracja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_above="@+id/AnonimMode"
+        android:layout_marginBottom="50dp"
+        android:layout_toStartOf="@+id/AnonimMode"
+        android:background="@drawable/color_button_one"
+        android:text="@string/rejestracja"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/Logowanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/AnonimMode"
+        android:layout_marginBottom="50dp"
+        android:layout_toEndOf="@+id/AnonimMode"
+        android:background="@drawable/color_button_one"
+        android:textStyle="italic"
+        android:text="@string/zaloguj"
+        android:textColor="@color/colorWhite"/>
+
+
+    <Button
+        android:id="@+id/AnonimMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/color_button_one"
+        android:textStyle="italic"
+        android:text="@string/anonimmode"
+        android:textColor="@color/colorWhite"/>
+
+</RelativeLayout>

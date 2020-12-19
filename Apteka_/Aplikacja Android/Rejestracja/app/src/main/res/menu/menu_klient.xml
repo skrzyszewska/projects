@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/konto"
+        android:title="@string/konto"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/koszyk"
+        android:title="@string/koszyk"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/dodaj_recepte"
+        android:title="@string/dodaj_recepte"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ustawienia"
+        android:title="@string/ustawienia"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/faq"
+        android:title="@string/faq"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/wyloguj"
+        android:title="@string/wyloguj"
+        app:showAsAction="never"/>
+
+
+</menu>

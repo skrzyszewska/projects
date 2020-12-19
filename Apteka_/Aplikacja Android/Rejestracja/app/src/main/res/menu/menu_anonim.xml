@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/zarejestruj"
+        android:title="@string/zarejestruj"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/koszyk"
+        android:title="@string/koszyk"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/ustawienia"
+        android:title="@string/ustawienia"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/faq"
+        android:title="@string/faq"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/zaloguj"
+        android:title="@string/zaloguj"
+        app:showAsAction="never"/>
+
+
+
+</menu>
